@@ -5,7 +5,7 @@ import signal
 
 def run_bitcrack(start_keyspace, end_keyspace):
     command = [
-        'BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '100000000',
+        'BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '1',
         '-r', f'--keyspace', f'{start_keyspace}:{end_keyspace}', '-o', 'FOUND.txt',
         '-c', '13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so'
     ]
