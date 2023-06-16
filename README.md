@@ -11,6 +11,6 @@ python3 runloop.py loops back to beginning instead of stopping for another entir
 Not tried on Linux or WSL, don't know if kill command will work but you will need to change line <br>
 'BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '1', to<br>
 './BitCrack', '-b', '672', '-t', '256', '-p', '256', '--stride', '1',<br>
-      
+non-random version of bitcrack remove -r from code. 
   
   ![increment](https://github.com/unclevito2017/Bitcrack-automation/assets/37158637/1e855627-fdf1-4dc3-a5bd-3ee47ef8c3a5)
