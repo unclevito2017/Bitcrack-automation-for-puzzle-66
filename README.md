@@ -10,7 +10,7 @@ python3 run2.py when reaches end of keyspace stops<br>
 python3 runloop.py loops back to beginning instead of stopping for another entire random range scan.<br> 
 Not tried on Linux or WSL, don't know if kill command will work but you will need to change line <br>
 'BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '1', to<br>
-'./BitCrack', '-b', '672', '-t', '256', '-p', '256', '--stride', '1',<br>
+'./BitCrack', '-b', '672', '-t', '256', '-p', '256', '--stride', '1', and compile linux version<br>
 non-random version of bitcrack remove -r from code if you get a error. 
   
   ![increment](https://github.com/unclevito2017/Bitcrack-automation/assets/37158637/1e855627-fdf1-4dc3-a5bd-3ee47ef8c3a5)
