@@ -32,7 +32,7 @@ def run_bitcrack(start_keyspace, end_keyspace):
     ]
 
     process = subprocess.Popen(command, shell=True, creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
-    time.sleep(70)  # Wait for 70 seconds
+    time.sleep(180)  # Wait for 180 seconds
     os.kill(process.pid, signal.CTRL_BREAK_EVENT)  # Send CTRL_BREAK_EVENT signal to terminate the process group
     process.wait()  # Wait for the process to exit
 
