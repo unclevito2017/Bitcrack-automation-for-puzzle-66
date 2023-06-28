@@ -1,5 +1,5 @@
 # Bitcrack-automation
-for Windows puzzle 66 automate incrementing and scanning through the range by automatically incrementing through the puzzle<br>
+for Windows puzzle 66 automate incrementing and scanning through the range by automatically incrementing through the puzzle 66<br>
 can use any version of bitcrack but for this I used random bitcrack that generates millions of random starting points<br>
 Keeping the range scanned small and with millions of starting points increases the chance of finding the private key<br>
 <b>Change</b> -b,-t,-p to fit your  card's memory, more memory more starting points and more chance for success<br>
@@ -11,7 +11,11 @@ python3 runloop.py loops back to beginning instead of stopping for another entir
 Not tried on Linux or WSL, don't know if kill command will work but you will need to change line <br>
 'BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '1', to<br>
 './BitCrack', '-b', '672', '-t', '256', '-p', '256', '--stride', '1', and compile linux version of bitcrack or bitcrack random<br>
-non-random version of bitcrack remove -r from code if you get a error. <br>
+non-random version of bitcrack remove -r from code or you get a error. <br>
+adjust -b, -t and -p to match your gpu<br>
+adjust time.sleep(180)  # Wait for 180 seconds to value of desired run before auto restart with new random keyspace values<br>
+delete .pkl file once entire keyspace is scanned to start over<br> 
+change increment valye to your desired value default is 100000000000000
 
 If this program helps find your hidden treasures : donations<br>
 <b>Bitcoin bc1qus09g0n5jwg79gje76zxqmzt3gpw80dcqspsmm   <br>
