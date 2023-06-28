@@ -16,7 +16,7 @@ non-random version of bitcrack remove -r from code or you get a error. <br>
 adjust -b, -t and -p to match your gpu<br>
 adjust time.sleep(180)  # Wait for 180 seconds to value of desired run before auto restart with new random keyspace values<br>
 delete .pkl file once entire keyspace is scanned to start over<br> 
-change increment valye to your desired value default is 100000000000000
+change increment value to your desired value default is 100000000000000
 
 If this program helps find your hidden treasures : donations<br>
 <b>Bitcoin bc1qus09g0n5jwg79gje76zxqmzt3gpw80dcqspsmm   <br>
