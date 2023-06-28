@@ -12,6 +12,7 @@ Not tried on Linux or WSL, don't know if kill command will work but you will nee
 'BitCrack.exe', '-b', '672', '-t', '256', '-p', '256', '--stride', '1', to<br>
 './BitCrack', '-b', '672', '-t', '256', '-p', '256', '--stride', '1', and compile linux version of bitcrack or bitcrack random<br>
 non-random version of bitcrack remove -r from code or you get a error. <br>
+<b>Random with continue,/b><br>
 adjust -b, -t and -p to match your gpu<br>
 adjust time.sleep(180)  # Wait for 180 seconds to value of desired run before auto restart with new random keyspace values<br>
 delete .pkl file once entire keyspace is scanned to start over<br> 
